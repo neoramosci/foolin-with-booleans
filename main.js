@@ -1,6 +1,84 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+// question  1 
+function moreThan5(num){
+  return num >= 5;
+}
+// question  2
+function isNewTopScore(num1,num2){
+  return num1 > num2 ;
+}
+// question  3
+function isInDanger(num){
+ return num >= 60 && num <=71;
+} 
+
+// question  4
+function isCoasting(num){
+  return num >= 72 && num <= 83;
+}
+
+// question  5
+function isSucceeding(num){
+  return num >= 84 && num <= 92;
+}
+
+// question  6
+function isFailing(num){
+  return num < 60
+}
+
+// question 7 
+function isAcing(num){
+return num > 92;
+}
+
+// question 8
+function isStudent(str){
+  role = 'student';
+  return str === role; 
+}
+
+// question 9
+function isTeacher(str){
+  role = 'teacher';
+  return str === role;
+}
+
+// question 10
+function isAdmin(str){
+  role = 'admin'
+  return str === role
+}
+
+// question 11 
+function isElementary(str){
+  value = 'elementary';
+  return str === value;
+}
+
+
+//question 12 
+function areDifferentPeople(str1,str2){
+return str1 === str2;
+}
+
+//question 13
+function isMiddleSchoolTeacher(str,num){
+  role = 'teacher';
+  return str === role && num >= 6 && num <=8;
+}
+
+//question 14
+function notAnElementarySchoolAdministrator(str1,str2){
+role = 'Admin'
+value = 'elementary'
+return str1 === role && str2 === value && str2 != value;
+}
+
+const result = notAnElementarySchoolAdministrator('Admin','high school');
+result; 
 
 
 
