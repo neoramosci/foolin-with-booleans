@@ -36,49 +36,40 @@ return num > 92;
 
 // question 8
 function isStudent(str){
-  role = 'student';
-  return str === role; 
+  return str === 'student'; 
 }
 
 // question 9
 function isTeacher(str){
-  role = 'teacher';
-  return str === role;
+  return str === 'teacher';
 }
 
 // question 10
 function isAdmin(str){
-  role = 'admin'
-  return str === role
+  return str === 'admin';
 }
 
 // question 11 
 function isElementary(str){
-  value = 'elementary';
-  return str === value;
+  return str === 'elementary';
 }
 
 
 //question 12 
 function areDifferentPeople(str1,str2){
-return str1 === str2;
+return str1 !== str2;
 }
 
 //question 13
 function isMiddleSchoolTeacher(str,num){
-  role = 'teacher';
-  return str === role && num >= 6 && num <=8;
+  return str === 'teacher' && num >= 6 && num <=8;
 }
 
 //question 14
 function notAnElementarySchoolAdministrator(str1,str2){
-role = 'Admin'
-value = 'elementary'
-return str1 === role && str2 === value && str2 != value;
+return str2 !== 'elementary' || role !== 'admin';
 }
 
-const result = notAnElementarySchoolAdministrator('Admin','high school');
-result; 
 
 
 
